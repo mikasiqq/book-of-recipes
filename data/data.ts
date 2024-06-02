@@ -43,7 +43,7 @@ export const recipes = [
       "https://www.lecremedelacrumb.com/wp-content/uploads/2020/06/kung-pao-chicken-1sm-3-1024x1536.jpg",
       "https://www.cookwithmanali.com/wp-content/uploads/2021/03/Kung-Pao-Cauliflower.jpg",
     ],
-    time: "15",
+    time: 15,
     ingredients: [
       [0, "200ml"],
       [1, "5g"],
@@ -61,7 +61,7 @@ export const recipes = [
     photosArray: [
       "https://assets.jintravel.com/files/upload/blogs/what%20to%20eat%20in%20spain/paella-what-to-eat-in-spain-spanish-food-jintravel.com.jpg",
     ],
-    time: "30",
+    time: 30,
     ingredients: [
       [15, "2 breasts"],
       [6, "1/2 lbs"],
@@ -80,7 +80,7 @@ export const recipes = [
     photosArray: [
       "https://avatars.dzeninfra.ru/get-zen_doc/4782316/pub_621e2cd440c1236e35c85c1c_621e2d74c7802f0e7223c1f0/scale_1200",
     ],
-    time: "30",
+    time: 30,
     ingredients: [
       [0, "2 quarts"],
       [16, "1"],
@@ -102,7 +102,7 @@ export const recipes = [
     title: "Dim Sum",
     photo_url: "https://www.ndtv.com/cooks/images/vegetable.dim.sum.jpg",
     photosArray: ["https://www.ndtv.com/cooks/images/vegetable.dim.sum.jpg"],
-    time: "45",
+    time: 45,
     ingredients: [
       [0, "2 tablespoons"],
       [22, "1/2"],
@@ -130,7 +130,7 @@ export const recipes = [
     photosArray: [
       "https://c.ndtvimg.com/2018-10/ilrq2c5_pav-bhaji_625x300_19_October_18.jpeg",
     ],
-    time: "30",
+    time: 30,
     ingredients: [
       [1, "2 tablespoons"],
       [3, "1 tablespoon"],
@@ -161,7 +161,7 @@ export const recipes = [
     photosArray: [
       "https://attuale.ru/wp-content/uploads/2018/10/721388_1_w_1200.jpg",
     ],
-    time: "35",
+    time: 35,
     ingredients: [
       [30, "jucie of 1 "],
       [24, "2 teaspoons"],
@@ -247,7 +247,7 @@ export const recipes = [
     photosArray: [
       "https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Mutton-Keema-Samosa-2.jpg",
     ],
-    time: "15",
+    time: 15,
     ingredients: [
       [0, "200ml"],
       [1, "5g"],

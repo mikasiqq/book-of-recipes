@@ -5,6 +5,17 @@ import MenuImage from "@/components/menu-image/MenuImage";
 import { getCategoryName } from "@/data/mock-data-api";
 import { recipes } from "@/data/data";
 
+interface Recipe {
+  recipeId: number;
+  categoryId: number;
+  title: string;
+  photo_url: string;
+  photosArray: string[];
+  time: number;
+  ingredients: (string | number)[][];
+  description: string;
+}
+
 export default function HomeScreen(props: any) {
   const { navigation } = props;
 
@@ -21,11 +32,11 @@ export default function HomeScreen(props: any) {
   //   });
   // }, []);
 
-  const onPressRecipe = (item: any) => {
+  const onPressRecipe = (item: Recipe) => {
     navigation.navigate("Recipe", { item });
   };
 
-  const renderRecipes = ({ item }: { item: any }) => (
+  const renderRecipes = ({ item }: { item: Recipe }) => (
     <TouchableHighlight
       underlayColor="rgba(128, 128, 128, 0.1)"
       onPress={() => onPressRecipe(item)}
