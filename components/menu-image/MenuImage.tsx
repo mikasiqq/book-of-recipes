@@ -3,7 +3,11 @@ import { TouchableOpacity, Image } from "react-native";
 import PropTypes from "prop-types";
 import styles from "./styles";
 
-export default function MenuImage(props: any) {
+interface Props {
+  onPress: () => void;
+}
+
+export default function MenuImage(props: Props) {
   return (
     <TouchableOpacity
       style={styles.headerButtonContainer}
