@@ -1,4 +1,12 @@
-export const categories = [
+import { Recipe } from "@/app/home/Home";
+
+export interface Category {
+  id: number;
+  name: string;
+  photo_url: string;
+}
+
+export const categories: Category[] = [
   {
     id: 3,
     name: "Chineese Food",
@@ -31,7 +39,7 @@ export const categories = [
   },
 ];
 
-export const recipes = [
+export const recipes: Recipe[] = [
   {
     recipeId: 122,
     categoryId: 3,
